@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const url = require('url');
 
-const port = 8081;
+const port = process.env.PORT || 8080;
 
 let message = "You'll never figure out how to change me";
 
