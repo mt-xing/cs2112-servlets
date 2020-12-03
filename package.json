@@ -1,0 +1,13 @@
+{
+  "name": "2112-servlets",
+  "version": "1.0.0",
+  "description": "A duplicate of the servlet given to the students in Java, but in NodeJS",
+  "main": "index.js",
+  "author": "Michael Xing + other CS 2112 Course Staff",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
